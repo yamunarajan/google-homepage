@@ -1,5 +1,5 @@
 .center {
-  padding: 150px;
+  padding: 205px;
   text-align: center;
 }
 
@@ -34,7 +34,24 @@ li a {
 }
 
 .form {
-	padding: 40px;
+	padding: 30px;
+}
+
+input {
+	border-top: 1px solid #e4e4e4;
+	border-left: 1px solid #e4e4e4;
+	border-radius: 30px;
+	width: 61%;
+	height: 42px;
+}
+
+input:hover {
+	box-shadow: 2px 2px 5px gray;
+}
+
+input:focus {
+	outline: none;
+	box-shadow: 2px 2px 5px gray;
 }
 
 .buttons {
